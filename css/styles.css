@@ -1,0 +1,134 @@
+
+
+ body {
+     color: #2d3c49;
+     font-family: 'Lato', sans-serif;
+ }
+
+ ul {
+     list-style-type: none;
+ }
+
+ .header {
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     margin-top: 30px;
+     border-bottom: 5px solid #7d97ad;
+ }
+
+ .header_inner {
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+     margin: 20px 20px;
+     vertical-align: top;
+ }
+
+ .header__click {
+     display: none;
+ }
+
+ .header_logo {
+     width: 20%;
+ }
+
+ .header_title {
+     width: 80%;
+     text-align: right;
+     text-transform: uppercase;
+ }
+
+ .menu_bar a {
+     text-decoration: none;
+     color: #2d3c49;
+ }
+
+ .menu_bar {
+     width: 100%;
+     border-bottom: 5px solid #7d97ad;
+ }
+
+ .menu_list {
+     max-width: 100%;
+ }
+
+ .menu_items {
+     text-transform: uppercase;
+     display: inline-block;
+     text-align: center;
+     width: 23%;
+     padding: 0 15px;
+     margin: 0 15px;
+     box-sizing: border-box;
+ }
+
+ .menu_bar a:hover {
+     text-decoration: underline;
+     color: #02b3e4;
+ }
+
+ .developer_image {
+     max-width: 100%;
+ }
+
+ .content {
+     margin: 10px 10px;
+ }
+
+ .title_2 {
+     text-transform: uppercase;
+     color: #7d97ad;
+     width: 100%;
+ }
+
+ .pro_image {
+     height: 200px;
+     max-width: 100%;
+     display: block;
+     margin: auto;
+     border-radius: 50%;
+ }
+
+ .content_image:hover {
+     background-color: #FAEBD7;
+ }
+
+ .description {
+     display: flex;
+     max-width: 100%;
+ }
+
+ .content_image {
+     width: 30%;
+ }
+
+ figcaption {
+     text-transform: uppercase;
+     text-align: center;
+ }
+
+ figcaption a {
+     text-decoration: none;
+     color: #2d3c49;
+ }
+
+ figcaption a:hover {
+     text-shadow: 2px 2px 8px #FF0000;
+ }
+
+ [class*="zocial-"]:before {
+     font-family: 'zocial', sans-serif;
+     display: inline-block;
+     color: #2d3c49;
+     text-shadow: 3px 3px 3px #FF0000;
+     width: 2em;
+ }
+
+ a:hover [class*="zocial-"]:before {
+     color: #3d85c6;
+ }
+
+ [class*="zocial-"] {
+     display: inline-block;
+ }

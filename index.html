@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>my portfolio site</title>
+
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial">
+
+</head>
+
+<body>
+
+    <header class="header">
+       <div class="header_logo">
+         <img class="header_inner" src="images/logo.jpg" alt="abhishek_image">
+       </div>
+       <div class="header_title">
+           <h1 class="title_inner">abhishek ravichandran</h1>
+           <h2 class="title_inner">web-developer</h2>
+           <a id="click" class="header__click">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+               <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z">
+               </svg>
+            </a>
+       </div>
+    </header>
+
+    <nav class="menu_bar">
+        <ul class="menu_list">
+           <li class="menu_items"><a href="#">home</a></li>
+           <li class="menu_items"><a href="#">about us</a></li>
+           <li class="menu_items"><a href="#">contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div class="content">
+            <picture>
+                <source media="(min-width: 800px)" srcset="images/web-developer-1-1600_large_2x.png">
+                <source media="(min-width: 500px)" srcset="images/web-developer-1_medium.png">
+                <img class="developer_image" src="images/web-developer-1_small.png" alt="web_developer_mindset">
+            </picture>
+            <p>Web developing is fun &#9786; and involves with lot of creative works. A web developer should know lots of strategies to create a perfect website.</p>
+        </div>
+
+        <h2 class="title_2">featured work</h2>
+
+        <div class="description">
+            <figure class="content_image">
+                <img class="pro_image" src="images/Koala_climbing_tree.jpg" alt="Koala_climbing_tree">
+                <figcaption><a href="#">animal trading cards</a></figcaption>
+            </figure>
+
+            <figure class="content_image">
+                <img class="pro_image" src="images/5053754_orig.jpg" alt="web-designing">
+                <figcaption><a href="#">responsive images</a></figcaption>
+            </figure>
+
+            <figure class="content_image">
+                <img class="pro_image" src="images/Web-Developer.jpg" alt="web-development">
+                <figcaption><a href="#">image optimization</a></figcaption>
+            </figure>
+
+        </div>
+
+        <hr>
+
+    </main>
+
+
+
+    <footer>
+        <div class="social_icon">
+            <ul>
+                <li class="zocial-googleplus"><a href="https://accounts.google.com/signin">google+</a></li>
+                <li class="zocial-facebook"><a href="https://www.facebook.com/">facebook</a></li>
+                <li class="zocial-twitter"><a href="https://twitter.com/login">twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+
+      var menu = document.querySelector('#click');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('.menu_bar');
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+
+  </script>
+</body>
+</html>
+

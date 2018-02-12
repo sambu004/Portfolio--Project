@@ -1,3 +1,4 @@
 # Portfolio--Project
-udacity project
-##open index.html file
+## udacity project
+_clone or download the file_
+**open index.html file**
